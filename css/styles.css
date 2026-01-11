@@ -1,0 +1,29 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.wallet-card {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 14px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+#message {
+  font-size: 0.9rem;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+table th {
+  font-weight: 600;
+}
+
+table td {
+  font-size: 0.95rem;
+}

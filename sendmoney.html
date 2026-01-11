@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Wallet - Enviar Dinero</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-light">
+
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card shadow-sm p-4" style="width: 350px;">
+      <h2 class="text-center mb-4">Enviar Dinero</h2>
+
+      <p id="saldoDisplay" class="text-center mb-3 fw-bold"></p>
+
+      <input type="text" id="searchContact" class="form-control mb-3" placeholder="Buscar en la agenda">
+
+      <ul id="contactList" class="list-group mb-3"></ul>
+
+      <button id="sendBtn" class="btn btn-success w-100 mb-3" style="display:none;">Enviar dinero</button>
+
+      <button id="addContactBtn" class="btn btn-secondary w-100 mb-3">Agregar nuevo contacto</button>
+
+      <!-- FORMULARIO DE NUEVO CONTACTO -->
+      <div id="contactForm" style="display:none;" class="card p-3 mb-3">
+        <input type="text" id="newName" class="form-control mb-2" placeholder="Nombre y apellido" required>
+        <input type="text" id="newCbu" class="form-control mb-2" placeholder="CBU" required>
+        <input type="text" id="newAlias" class="form-control mb-2" placeholder="Alias" required>
+        <input type="text" id="newBank" class="form-control mb-2" placeholder="Banco" required>
+
+        <div class="d-flex gap-2">
+          <button id="saveContactBtn" class="btn btn-primary">Guardar</button>
+          <button id="cancelContactBtn" class="btn btn-outline-secondary">Cancelar</button>
+        </div>
+      </div>
+
+      <div id="alert-container" class="mt-3"></div>
+
+      <a href="menu.html" class="btn btn-outline-secondary w-100 mt-3">Volver al menú</a>
+    </div>
+  </div>
+
+  <script src="js/sendmoney.js"></script>
+</body>
+</html>
