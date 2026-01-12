@@ -32,7 +32,7 @@ $(document).ready(function() {
         // Limpiar formulario
         $('#depositAmount').val('');
 
-        // Redirigir al menú después de 2 segundos
+        // Redirigir al menú
         setTimeout(() => window.location.href = 'menu.html', 2000);
     });
 
