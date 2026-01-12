@@ -36,29 +36,6 @@ Fue desarrollada como parte de una evaluación integradora, aplicando HTML, CSS,
 
 ---
 
-## 📂 Estructura del Proyecto
-
-alke-wallet/
-│
-├── css/
-│ └── styles.css
-│
-├── js/
-│ ├── login.js
-│ ├── menu.js
-│ ├── deposit.js
-│ ├── sendmoney.js
-│ └── transactions.js
-│
-├── login.html
-├── menu.html
-├── deposit.html
-├── sendmoney.html
-├── transactions.html
-└── README.md
-
----
-
 ## 🔐 Credenciales de acceso
 
 Para ingresar a la aplicación, utiliza los siguientes datos de prueba:
