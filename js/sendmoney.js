@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-    // --- Inicializar datos ---
+    // --- Inicializar datos --- //
     if (!localStorage.getItem('saldo')) localStorage.setItem('saldo', '0');
     if (!localStorage.getItem('transactions')) localStorage.setItem('transactions', JSON.stringify([]));
     if (!localStorage.getItem('contacts')) {

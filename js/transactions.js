@@ -28,7 +28,7 @@ $(document).ready(function() {
         });
     }
 
-    // Renderizar al cargar
+    // Renderizar al cargar //
     renderTransactions();
 
     // Filtrar
